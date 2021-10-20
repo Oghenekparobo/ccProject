@@ -1,0 +1,162 @@
+
+/* media queries */
+
+ 
+/* media query for avrage large screens screens aapplies to large devices (ipadpro, less than 1200px) */
+@media (max-width: 1024px) { 
+/* styling the hero-section  */
+.hero-bg{ 
+    Height: 400px;
+}
+
+
+
+/* styling the carousel section */
+.carousel-section{ 
+    padding: 0;
+   
+}
+.carousel-double-arrows{ 
+    display: none !important;
+}
+
+/* styling the question section */
+.questions-section{ 
+    padding-left:10rem;
+}
+
+/* styling the brand section */
+.brands .brand-none {
+    display: none ;
+}
+
+
+}
+
+
+/* media queries (medium screens!)*/
+/* media query for medium screens applies to medium  screens (landscape phones ipads, less than 768px) */
+@media (max-width: 768.98px) { 
+ /* styling hero-section */
+ .hero-section .header-text-content {
+     margin-left: 11rem;
+ }
+ .hero-section .hero-bg {
+     margin-left: 1.5rem;
+ }
+
+
+/* styling car sevices */
+.car-servicing .car-servicing-container{ 
+    flex-direction: column;
+}
+
+.service-form { 
+    padding-left: 4rem;
+}
+
+
+/* styling helpline */
+.help-line-text-content{ 
+    text-align: center;
+}
+
+    
+ /* styling the brands */
+
+ .brands .brand-none {
+        display: none ;
+    }
+ /* styling the carousel section */
+ .carousel-section{ 
+        padding-left:10rem;
+       
+    }
+
+  /* styling the question section */
+ .questions-section{ 
+        padding: 4rem;
+    }
+ .question-list-section-tab{
+        width: 100%;
+    }
+
+ }
+
+
+
+/* media queries (smaller screens!)*/
+/* media query for small screens applies to small devices (small phones, less than 578px) */
+@media (max-width: 578px) { 
+/* styling the hero section  */
+.hero-section .header-text-content {
+    margin-left: 0rem;
+}
+.hero-section .hero-bg {
+    margin-left: 0rem;
+}
+
+
+/* styling the carousel section */
+.carousel-section{ 
+    padding-left:10rem;
+   
+}
+
+/* styling the question section */
+.questions-section{ 
+    padding: 4rem;
+}
+
+}
+
+/* media query for max-426 */
+
+@media (max-width: 426px) {
+
+    .carousel-section{ 
+    padding: 2px;
+   
+}
+
+}
+
+/* media query for small screens applies to small devices (portrait phones, less than 375px) */
+@media (max-width: 375px) {
+    .hero-bg{ 
+        Height: 300px;
+    }
+    
+
+  /* styling the carousel section */
+  .carousel-section{ 
+    padding: 2px;
+   
+}
+
+.carousel-section .card{ 
+    width: 19rem !important;
+   
+}
+/* styling the offers section */
+.offers .offer-box{
+    padding: 30px;
+}
+
+body{ 
+    overflow-x: hidden;
+}
+
+.questions-section {
+    padding: 0.2rem;
+    
+}
+.question-list-section-tab{
+    width: 100%;
+}
+
+.brands .brand-none {
+    display: none ;
+}
+ 
+}

@@ -1,0 +1,455 @@
+/* Imported Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+/* Body */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+/* Services Hero Styles */
+.services-hero {
+    padding: 100px 0px;
+}
+
+.services-hero-box{
+   position: relative;
+    height: 550px;
+}
+
+.services-hero-text{
+    position: relative;
+    z-index: 100;
+    background-color: #1e1b1b;
+    color: #f2f2f2;
+    width: 840px;
+    transform: translateX(-60px);
+}
+
+.services-hero-text h1 {
+    font-weight: 800;
+    font-size: 4em;
+    line-height: 84px;
+    letter-spacing: -0.03em;
+}
+
+.services-hero-text p{
+    font-weight: 500;
+    font-size: 1.125em;
+    line-height: 31px;
+}
+
+.services-hero-text button {
+    border-radius: 12px;
+    font-size: 1.125em;
+    font-weight: 600;
+    line-height: 31px;
+    background-color: #ff6433;
+    padding: 16px 40px;
+}
+
+.services-hero-image {
+    position: relative;
+    z-index: 1;
+    width: 818px;
+    background-image: url(../images/service-hero.jpg);
+    transform: translateX(75px);
+}
+
+/* Services Type Styles */
+.diagnostics-icon {
+    width: 44px;
+    height: 49px;
+}
+
+.engine-icon {
+    width: 42px;
+    height: 41.84px;
+}
+
+.body-work-icon {
+    width: 54.15px;
+    height: 38.32px;
+}
+
+.batteries-icon {
+    width: 44px;
+    height: 38.5px;
+}
+
+.services-types{
+    display: grid;
+    grid-template-columns: repeat (4, 1fr );
+    grid-template-rows: repeat (6, 1fr );
+    grid-gap: 13px;
+    background-color: #f5f5f5;
+    padding: 100px 0px;
+}
+
+.service-1-div{
+    grid-column: 1/3;
+    grid-row: 1/7;
+    width: 580px;
+    height: 750px;
+    position: relative;
+    left: 20px;
+}
+
+.service-1-div h3 {
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 67px;
+    letter-spacing: -0.03em;
+    color: #1e1b1b;
+}
+
+.service-1-div p {
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    opacity: 0.6;
+    color: #232536;
+}
+
+.service-1-div a {
+    font-weight: 600;
+    font-size: 1.125em;
+    line-height: 31px;
+    color: #1e1b1b;
+}
+
+.diagnostic-div{
+    grid-column: 3/4;
+    grid-row: 1/3;
+    background-color: #ff6433;
+    width: 296px;
+    height: 238px;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+}
+
+.engine-repair-div{
+    grid-column: 4/5;
+    grid-row: 1/3;
+    width: 296px;
+    height: 238px;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #1e1b1b;
+}
+
+.body-work-div{
+    grid-column: 3/4;
+    grid-row: 3/5;
+    width: 296px;
+    height: 238px;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #1e1b1b;
+}
+
+.batteries-div{
+    grid-column: 4/5;
+    grid-row: 3/5;
+    width: 296px;
+    height: 238px;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #1e1b1b;
+}
+
+.car-wash-div{
+    grid-column: 3/4;
+    grid-row: 5/7;
+    width: 296px;
+    height: 238px;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #1e1b1b;
+}
+
+.ac-repair-div {
+    grid-column: 4/5;
+    grid-row: 5/7;
+    width: 296px;
+    height: 238px;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #1e1b1b;
+}
+
+/* Services Processes styles */
+.services-process{
+    padding: 150px 0px;
+}
+
+.services-process-main{
+    height: 477px;
+}
+
+.services-process-text{
+    width: 515px;
+}
+
+.services-process-text h3{
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 67px;
+    letter-spacing: -0.03em;
+    color: #1e1b1b;
+}
+
+.services-process-text p{
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #1e1b1b;
+   width: 480px;
+   height: 72px;
+}
+
+.services-process-text img{
+    width: 48px;
+    height: 48px;
+}
+
+.services-process-diagnose{
+    height: 489px;
+    position: relative;
+    padding-top: 100px;
+}
+
+.services-diagnose-text {
+    width: 547px;
+}
+
+.services-diagnose-text h3 {
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 67px;
+    letter-spacing: -0.03em;
+    color: #1e1b1b;
+}
+
+.services-diagnose-text p{
+    font-weight: 600;
+    font-size: 1.125em;
+    line-height: 31px;
+    color: #232536;
+    opacity: 0.6;
+}
+
+.services-diagnose-text button{
+    font-weight: 600;
+    font-size: 1.125em;
+    line-height: 31px;
+    border-radius: 12px;
+    background: #ff6433;
+    padding: 16px 40px;
+}
+
+.services-diagnose-images{
+    width: 624px;
+}
+/* Media Queries */
+
+/* Small Desktop View */
+@media only screen and (max-width: 1024px) {
+
+    /* Services Hero Styles */
+    .services-hero {
+        padding: 80px 0px;
+    }
+
+    .services-hero-text{
+        transform: translateX(-70px);
+    }
+    
+    .services-hero-image {
+        transform: translateX(70px);
+    }
+ 
+    /* Services Type Styles */
+    .service-1-div{
+        width: 500px;
+        left: 0px;
+    }
+
+    .diagnostic-div,
+    .engine-repair-div,
+    .body-work-div,
+    .batteries-div,
+    .car-wash-div,
+    .ac-repair-div{
+        width: 200px;
+    }
+
+    .services-types {
+        grid-gap: 13px;
+    }
+
+    /* Services Processes styles */
+    .services-process{
+        padding: 100px 0px;
+    }
+
+    .services-process-diagnose{
+        padding-top: 1600px;
+    }
+}
+
+/* Tablet View */
+@media only screen and (max-width: 768px) {
+
+    /* Services Hero Styles */
+    .services-hero {
+        padding: 50px 0px;
+    }
+
+    .services-hero-box{
+        background: url(../images/service-hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .services-hero-text{
+        background: rgba(30, 27, 27, 0.7);
+        transform: translateX(0px);
+    }
+    
+    .services-hero-image {
+        display: none;
+    }
+
+    /* Services Types Styles */
+    .services-types {
+        padding: 50px 0px;
+    }
+
+    .diagnostic-div,
+    .body-work-div,
+    .car-wash-div{
+        width: 180px;
+    }
+}
+
+/* Large Mobile View */
+@media only screen and (max-width: 425px) {
+
+    /* Services Hero Styles */
+    .services-hero-text{
+        width: 100%;
+    }
+
+    .services-hero-box{
+        height: 600px;
+    }
+
+    /* Service Types Styles */
+    .services-types{
+        display: flex;
+    }
+
+    /* Services Processes styles */
+    .services-process{
+        padding: 50px 0px;
+    }
+
+    .services-process-text{
+        width: 80%;
+    }
+
+    .services-process-diagnose{
+        padding-top: 3300px;
+    }
+
+    .services-diagnose-text {
+        width: 80%;
+    }
+
+    .services-diagnose-images{
+        width: 95%;
+    }
+}
+
+/* Medium Mobile View */
+@media only screen and (max-width: 375px){
+     /* Services Processes styles */
+    .services-process-text img{
+        display: none;
+    }
+
+    .services-process-text{
+        text-align: center;
+    }
+
+    .services-process-text p{
+        margin-right: 13px;
+    }
+
+    .services-process-diagnose{
+        padding-top: 3700px;
+    }
+
+    .services-diagnose-text {
+       text-align: center;
+    }
+
+    .services-diagnose-text p {
+       margin-left: 60px;
+    }
+
+    .services-diagnose-text button {
+        margin-right: 5px;
+      }
+}
+ /* Small Mobile View */
+@media only screen and (max-width: 320px) {
+
+    /* Services Hero Styles */
+    .services-hero-text h1{
+        font-size: 3.3em;
+    }
+
+    /* Services Types Styles */
+    .service-1-div{
+        width: 250px;
+        height: min-content;
+    }
+
+    .service-1-div h3{
+        font-size: 2.25em;
+    }
+
+    /* Services Processes styles */
+
+    .services-process-text p{
+       margin-bottom: 50px;
+       padding-bottom: 150px;
+    }
+
+    .services-process-diagnose{
+        padding-top: 3050px;
+    }
+
+    .services-diagnose-text p {
+       display: none;
+     }
+}

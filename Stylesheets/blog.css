@@ -1,0 +1,94 @@
+/* This is a custom sytlesheet that consist of webpage size reset, custom font sizes and colors for text and background */
+
+/* Default sizing reset for the whole body, pages */
+*, body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+
+/* this is the background image for the hero-section */
+.hero-section-bg{
+    
+    background-image: url(../images/blog-hero.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+
+
+
+
+/* This is the custom styling for the font sizes as used on the figma design */
+
+.heading-1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 84px;
+    /* or 131% */
+    letter-spacing: -0.03em;
+}
+
+
+
+
+/* Body-1 font size */
+.body-1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px
+}
+
+/* Body-2 font size */
+.body-02{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+/* Title 01 font size */
+.title-01{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    /* or 150% */
+    letter-spacing: -0.03em;
+}
+
+/* Heading-4 font size */
+.heading-4{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 140%;
+    /* or 56px */
+    letter-spacing: -0.03em;
+}
+
+/* Grey color style for text*/
+.grey{
+    color: #939191;
+    opacity: 0.8;
+}
+/* Orange color style for text */
+.orange{
+    color: #FF6433;
+}
+
+/* Orange background color for the buttons, its border and inside text */
+.btn-orange{ 
+    color: #fff;
+    background-color: #FF6433;
+    border-color: #FF6433;
+    
+}
